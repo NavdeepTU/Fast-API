@@ -13,7 +13,7 @@ class Patient(BaseModel):
 
     @field_validator("email") # custom data validation
     @classmethod # remember field_validator is always a classmethod
-    def email_validator(cls, value):
+    def email_validator(cls, value): # cls can be used to access other methods of the class
 
         valid_domains = ["hdfc.com", "icici.com"]
         # abc@gmail.com
