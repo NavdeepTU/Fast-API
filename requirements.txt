@@ -2,3 +2,5 @@ ipykernel
 uvicorn
 fastapi
 pydantic
+pandas
+numpy
